@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-const router = Router()
+const router: Router = Router()
 
 // GET /api/status
 router.get('/status', (req, res) => {
